@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  font-family: Helvetica, sans-serif;
+}
+
+.app__content {
+  max-width: 860px;
+  margin: 96px auto;
+}
+
+.app__search {
+  display: flex;
+}
+
+.app__cards {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
